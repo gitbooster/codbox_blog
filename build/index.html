@@ -45,8 +45,8 @@
 <!-- Content -->
 <div class="container">
     <div class="row">
-      <div class="col-xs-3 col-sm-3 col-md-3 hidden-xs fixed">
-         <ul id="sidebar" class="aside_nav nav nav-stacked ">
+      <div class="col-sm-3 hidden-xs ">
+         <ul id="sidebar" class="aside_nav nav nav-stacked" data-spy="affix" data-offset-top="205">
            <li><a href="#" class="nav_selected">Продукты</a></li>
            <li><a href="#">Документация</a></li>
            <li><a href="#">Мои приложения</a></li>
@@ -111,34 +111,15 @@
         		</ul>
         	</div>
         </div>
-        
-        <div class="news_box">
-        	<h2>Обновлённый codbox.org</h2>
-        	<div class="news_details">
-        		<ul>
-        			<li>9 марта 2017 <span class="divider"></span></li>
-        			<li>Новости</li>
-        		</ul>
-        	</div>
-        	<div class="news_content">
-        	<div class="news_first_img_box">
-        		<img src="img/news_prew3.jpg" class="news_first_img" alt="Обновлённый vk.cc">
-        	</div>
-        	
-        		<p>
-        		Отличные новости для тех, кто работает с публикациями, занимается рекламными метриками или просто не любит громоздкие ссылки. 
-        		<br><br>
-        		Мы прокачали codbox.org — наш сервис для сокращения ссылок. Теперь он умеет считать статистику переходов и отдавать информацию через API.
-        		</p>
-        	</div>
-        	<h4 class="read_more"><a href="read-more">Читать дальше »</a></h4>
-        	<div class="news_footer">
-        		<ul>
-        			<li><a href="#">Технологии</a></li>
-        			<li><a href="#">Новости</a></li>
-        		</ul>
-        	</div>
-        </div>
+
+       	<div class="page_nav text-center">
+       		<ul class="pagination">
+			  <li><a href="#">«</a></li>
+			  <li><a href="#">1</a></li>
+			  <li><a href="#">2</a></li>
+			  <li><a href="#">»</a></li>
+			</ul>
+       	</div>
     </div>
 </div>
 
@@ -147,7 +128,7 @@
 	<div class="col-sm-9">
 	<div class="copyright">
 		<span class="footer_copy">Codbox © 2017.</span>
-		<ul class=" hidden-xs">
+		<ul class="hidden-xs">
 			<li><a href="#">Новости</a></li>
             <li><a href="#">Начинающим</a></li>
             <li><a href="#">Вакансии</a></li>
