@@ -1,0 +1,52 @@
+/* Logo + description in one line */
+.navbar_l_and_d .navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  color: @white;
+  &>img {
+  
+  	width: 40px;
+    font-weight: 700;
+  }
+}
+span.logo_w > img {
+    width: 86px;
+    margin-left: 5px;
+}
+
+/* Logo - Center with Flexbox and Text*/
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+	  & .navbar-brand {
+	  display: flex;
+	  align-items: center;
+		  &>img {
+		  	padding: 7px 14px;
+		  	width: 67px;
+		  }
+	}
+}
+
+.navbar-toggle {
+    z-index: 1;
+}
+/* bg color for Dark header */
+.navbar-inverse {
+    background-color: @header_bg_dark;
+    border-color: @header_bg_dark;
+}
+/* bg color for light header*/
+.navbar-default {
+    background-color: @header_bg_light;
+    border-color: @header_bg_light;
+}
+.navbar-nav>li>a {
+    font-size: @font_size_13;
+}
+

@@ -1,0 +1,29 @@
+.aside_nav {
+    padding: 14px 0;
+    word-wrap: break-word;
+    background: @white;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	    & li a {
+		    display: block;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    line-height: 32px;
+		    padding: 0 23px;
+		    font-size: @font_size_13;
+	    }
+	    & li a:hover {
+    		background-color: #f5f7fa;
+	    }
+	    & li a.nav_selected{
+		    color: #000;
+		    background-color: #f5f7fa;
+		    font-weight: 700;
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+		    border-left: 2px solid #6286ae;
+		}
+
+}
+
