@@ -1,5 +1,5 @@
 /* ------ page ------ */
-.news_box {
+.news_box_full {
   background-color: @white;
   padding: 24px 25px 0px;
   margin-bottom: 20px;
@@ -13,6 +13,10 @@
     margin-top: 0px;
     color: #000;
   }
+  h4 {
+    font-size: 17px;
+    font-weight: 700;
+  }
   p {
     color: #000;
     font-size: 15px;
@@ -23,6 +27,18 @@
     display: block;
     word-wrap: break-word;
   }
+  blockquote {
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #f0f2f5;
+    border-left: 3px solid #93adc8;
+    margin: 10px 0px 0px;
+    font-size: inherit;
+}
+img {
+  width: 100%;
+  margin: 15px 0px;
+}
   .news_details {
     ul {
       list-style: none;
@@ -47,6 +63,9 @@
       }
     }
   }
+  .news_content {
+    margin-bottom: 15px;
+}
   h4.read_more a{
     font-size: 15px;
     font-weight: 600;
@@ -65,7 +84,6 @@
     padding-bottom: 20px;
     margin: 10px -25px 0px;
 }
-
 .news_first_img {
   max-width: 100%;
 }
@@ -116,89 +134,4 @@
       }
     }
 }
-
-
-
-
-.item.list-groups-item
-{
-    float: none;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.grid-group-item {
-  color: #cacaca;
-  .news_first_img_box {
-    text-align: center;
-    padding-bottom: 20px;
-    margin: 10px -25px 0;
-}
-.news_first_img {
-  
-}
-    .news_box {
-    background-color: @white;
-    padding: 24px 25px 0px;
-    margin-bottom: 20px;
-    a {
-      text-decoration: none !important
-    }
-    h2 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 12px;
-      margin-top: 0px;
-      color: #000;
-    }
-    p {
-      color: #000;
-      font-size: 15px;
-      line-height: 22.5px;
-      letter-spacing: -0.1px;
-      padding-top: 12px;
-      text-decoration: none!important;
-      display: block;
-      word-wrap: break-word;
-    }
-    .news_details {
-      display: none;
-      ul {
-        list-style: none;
-        padding-left: 0px;
-        margin-bottom: 18px;
-        li {
-          float: left;
-          padding-right: 5px;
-          font-size: 13px;
-          font-weight: 400;
-          color: #656565;
-          a {
-            color: #656565;
-            &:hover {
-                text-decoration: underline !important;
-          }
-          }
-          
-          &:last-child {
-            float: inherit;
-          }
-        }
-      }
-
-  }
-  h4.read_more a{
-    font-size: 15px;
-    font-weight: 600;
-    display: block;
-    color: #2a5885;
-    margin-top: 13px;
-    font-weight: 500;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
-    opacity: 0.8;
-  }
-}
-}
-
 
